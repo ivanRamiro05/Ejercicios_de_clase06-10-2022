@@ -1,0 +1,63 @@
+<mxfile host="65bd71144e">
+    <diagram id="toV61NZH8Zkpq9jgxsP-" name="Página-1">
+        <mxGraphModel dx="537" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Billetes_de_10k=0&lt;br&gt;Billetes de 2k=0&lt;br&gt;monedas =0&lt;br&gt;Billetes de 10k dia=0&lt;br&gt;Billetes de 2K dia= 0&lt;br&gt;monedas dia=0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="120" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="X=cuanto dinero deseas retirar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="X!=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="370" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_10k_dia&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_10k&lt;/span&gt;+&lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_10k&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_2k_dia&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_2k&lt;/span&gt; +&lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_2k&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Monedas_de_100_dia&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;Monedas_de_100&lt;/span&gt; + &lt;span style=&quot;color: #9cdcfe&quot;&gt;Monedas_de_100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_10k&lt;/span&gt;=&lt;span style=&quot;color: #4fc1ff&quot;&gt;X&lt;/span&gt;//&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;variable_para_2k&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_10k&lt;/span&gt;*&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Billetes_de_2k&lt;/span&gt;=(&lt;span style=&quot;color: #4fc1ff&quot;&gt;X&lt;/span&gt;-&lt;span style=&quot;color: #9cdcfe&quot;&gt;variable_para_2k&lt;/span&gt;)//&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Variable_para_monedas&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;(Billetes_de_10k)&lt;/span&gt;*&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;+&lt;span style=&quot;color: #9cdcfe&quot;&gt;(Billetes_de_2k)&lt;/span&gt;*&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe&quot;&gt;Monedas_de_100&lt;/span&gt;=(&lt;span style=&quot;color: #4fc1ff&quot;&gt;X&lt;/span&gt;-&lt;span style=&quot;color: #9cdcfe&quot;&gt;Variable_para_monedas&lt;/span&gt;)//&lt;span style=&quot;color: #b5cea8&quot;&gt;100&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="157.5" y="470" width="325" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="10" y="710"/>
+                            <mxPoint x="10" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Billetes de $10.000=Billetes de 10k&lt;br&gt;Billestes de $2.000 =Billetes de 2k&lt;br&gt;monedas de 100 =monedas" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="650" width="185" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Billetes de 10k dia=Billetes de 10k+ Billestes de 10k&lt;br&gt;Billetes de 2k dia= Billetes de 2k +Billetes de 2k&lt;br&gt;monedas dia= monedas de 100 +Monedas de 100" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="661" y="370" width="299" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="750.5" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
